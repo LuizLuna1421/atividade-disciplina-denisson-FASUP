@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    
+    <h1> Pagina do Formulário</h1>
+    Digite seu nome completo: <br>
+    <input type="text" name="nome" id="nome" placeholder="Digite seu nome"><br>
+    Digite seu email: <br>
+    <input type="email" name="email" required/>
+    <br>
+        deseja cancelar? 
+    <br>
+    <input type="reset" value="Cancelar"/>
+    <br>
+        Telefone:
+    <br> <input type="text" name="text" id="telefone" placeholder="(00) 0000-0000" maxlength="15"> <br>
+
+  
+    Que tipo de combustível seu carro usa? <br>
+    <input type="radio" name="gas" id="gas" value="gas"/>Gasolina<br>
+    <input type="radio" name="gas" id="gas" value="alcool"/>Álcool<br>
+    <input type="radio" name="gas" id="gas" value="GNV"/>GNV<br>
+    <input type="radio" name="gas" id="gas" value="Flex"/>Flex<br>
+
+    Check do combustível que você já abasteceu: <br>
+    <input type="checkbox" name="gas" id="gas" value="gas"/>Gasolina<br>
+    <input type="checkbox" name="alc" id="alc" value="alc"/>Álcool<br>
+    <input type="checkbox" name="gnv" id="gnv" value="gnv"/>GNV<br>
+    <input type="checkbox" name="flex" id="flex" value="flex"/>Flex<br>
+
+    Qual o seu carro favorito? <br>
+    <select name="carro" id="carro">
+        <option value="Fiat">Fiat Uno</option>
+        <option value="Sedan">Sedan</option>
+        <option value="Subaru">Subaru</option>
+        <option value="BMW">BMW</option>
+    </select>
+<br>
+    Aperte o botão para enviar o formulário: <br>
+    <input type="submit" value="Enviar">
+</body>
+</html>
